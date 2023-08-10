@@ -3,7 +3,7 @@ import style from './NewStyle.module.scss'
 export function NewStyleSection(props) {
     return (
 
-        <section> {props.NewStyle}
+        <section className={style.section}> {props.NewStyle}
 
             <h2>UNDER THE MOON - NEW STYLE</h2>
 

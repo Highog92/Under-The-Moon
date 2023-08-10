@@ -1,12 +1,10 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import { NavBar } from './Components/NavBar/Navbar'
 import { NewStyleSection } from './Components/NewStyle/NewStyle'
 import { Header } from './Components/Header/Header'
 import { Gallery } from './Components/Gallery/Gallery'
+import { Bookings } from './Components/Bookings/Bookings'
 import './Global.css'
-
 function App() {
 
   return (
@@ -16,6 +14,10 @@ function App() {
       <NewStyleSection />
       <Gallery />
 
+      <NavBar/>
+      <Header/>
+      <NewStyleSection/>
+      <Bookings/>
     </>
   )
 }
