@@ -4,18 +4,20 @@ import viteLogo from '/vite.svg'
 import { NavBar } from './Components/NavBar/Navbar'
 import { NewStyleSection } from './Components/NewStyle/NewStyle'
 import { Header } from './Components/Header/Header'
+import { Gallery } from './Components/Gallery/Gallery'
 import './Global.css'
 
 function App() {
 
-    return (
-      <>
-        <NavBar />
-        <Header />
-        <NewStyleSection/>
+  return (
+    <>
+      <NavBar />
+      <Header />
+      <NewStyleSection />
+      <Gallery />
 
-      </>
-    )
-  }
+    </>
+  )
+}
 
 export default App
