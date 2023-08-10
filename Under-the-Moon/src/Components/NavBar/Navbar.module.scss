@@ -1,0 +1,17 @@
+nav {
+    display: block;
+    background-color: #262626;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li {
+    margin: 1rem;
+    color: #ffffff;
+}
