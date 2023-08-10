@@ -12,12 +12,8 @@ function App() {
       <NavBar />
       <Header />
       <NewStyleSection />
-      <Gallery />
-
-      <NavBar/>
-      <Header/>
-      <NewStyleSection/>
       <Bookings/>
+      <Gallery />
     </>
   )
 }
